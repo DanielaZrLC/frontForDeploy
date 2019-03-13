@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Footer*/
+
+.gral{
+  display: flex;
+  height: 30vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background-color: #0d1a27;
+}
+
+.Red-cont{
+  display: flex;
+  height: 10vh;
+  width: 60vw;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.ant-layout-footer {
+  background-color:  #0d1a27 ;
+}
+
+/*Home*/
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  width: 100vw;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+
+.img-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin:10px;
+    background-image: cover;
+    opacity: .5;
+    }
+
+
+.img-ongs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+}
+
+.frase{
+  position: absolute;
+  -webkit-mask-position-y: 100;
+  background-color: rgba(225, 224, 224, 0.53);
+  color: black;
+}
+
+.cards-icon{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.sec3{
+  display: felx;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+ /*/////////***Login///////////*/
+
+
+.login-form{
+  background-image: url('https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?cs=srgb&dl=black-and-white-child-cute-48794.jpg&fm=jpg');
+  background-size: cover;
+  opacity: 0.6; 
+  display: flex;
+  height: 530px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.back-log{
+  background-color: rgba(27, 27, 27, 0.76);
+  padding: 50px;
+}
+
+/*///////////Signup/////////*/
+.signup-form{
+  background-image: url('https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?cs=srgb&dl=black-and-white-child-cute-48794.jpg&fm=jpg');
+  background-size: cover;
+  opacity: 0.6; 
+  display: flex;
+  height: 530px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-sign{
+  background-color: rgba(27, 27, 27, 0.76);
+  padding: 50px;
+}
+
+
+/*////////Perfil/////////*/
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 510px;
+  width: 50%;
+
+}
+
+
+/*New event*/
+
+.newEventform{
+  display: flex;
+  height: 300px;
+
+  background-color: rgb(rgb(168, 168, 168));
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
